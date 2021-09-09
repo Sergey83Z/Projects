@@ -1,0 +1,57 @@
+import turtle
+
+t = 1,2,3,4,5,6,7, 'qwe'
+
+a,b,*t1=t
+
+print('>' , *t1,sep = ' -> ', end = ' <\n')
+print(a,b)
+
+t2 = range(10)
+t3 = t2
+print(*t3)
+
+l = [1,2,3,4,5] 'list
+c = 1,2,3,4,5 'turple
+l[1] = 'acb'
+print(*t)
+print("type of l = ",type(l))
+l.append(7)
+
+A = [(1,10),(2,20),(3,30)]
+for angle,b in A:
+    print(angle,b)
+
+S = {'Stu', 'Msk', 'Dom'} 'Set
+print(S)
+S.add('Ser')
+print(S)
+if 'Stu' in S:
+    S.remove('Stu')
+print(S)
+
+
+
+D = {'Stu':2, 'Msk':5, 'Dom':83} ' Dict
+print(D)
+D['Ser']=76
+print(D)
+del D['Msk']
+print(D)
+D.pop('Dom')
+print(D)
+for T in D:
+    print(D.items())
+
+def foo(p_list : list):
+    p_list[0] = 20
+print(l)
+foo(l)
+print('ddd')
+print(l)
+
+r=1
+def rr(rr:int):
+    r=rr
+rr(3)
+print(r)
